@@ -12,8 +12,8 @@ args = Namespace(
     # data
     sample_size = 10_000,
     seq_len = 100, 
-    n_ids = 100, # equal to seq_len, eg: 200 SNP sites
-    n_classes = 13, # masked, AA, AT, AC, AG, CA, CT, GA, GC, TA, TC, TG, TT
+    n_ids = 100, # equal to seq_len
+    n_classes = 13, # masked, ...
     
     # model
     MAX_EPOCHS = 20,
